@@ -15,7 +15,7 @@ two top-level html outptus. My mind went
 In this short post I'll show you how to get started with [Parcel](https://parceljs.org)
 and [Elm](https://elm-lang.org/) to achieve zero configuration for managing your assets.
 
-In a few simple steps you'll get out of the box:
+With very little configuration you get:
 
 - live Elm reloading
 - ~100ms rebuilds with a warm cache (measured using ~1500 loc)
@@ -35,7 +35,7 @@ yarn add parcel-bundler elm
 yarn run elm init
 ```
 
-We'll create most minimal Elm program to start with in **src/Main.elm**:
+We'll create a minimal Elm program to start with in **src/Main.elm**:
 
 ```elm
 import Html exposing (..)
@@ -43,7 +43,7 @@ import Html exposing (..)
 main = text "Hello world"
 ```
 
-Next we create top-level asset that Parcel will build **index.html**:
+Next we create a top-level asset that Parcel will build, **index.html**:
 
 ```html  
 <!DOCTYPE html>
@@ -60,9 +60,9 @@ Next we create top-level asset that Parcel will build **index.html**:
 </html>
 ```
 
-Note how we're including `src` as relative path to a JavaScript file. General idea
-in Parcel is that you import files, whatever the type of asset Parcel will
-know how to process it and bundle it.
+Note how we're including `src` as relative path to a JavaScript file. The general idea
+in Parcel is that you import files of any asset type, and Parcel will
+know how to process and bundle it.
 
 The gist of glueing Elm and Parcel together is in **index.js**:
 
@@ -74,13 +74,13 @@ Elm.Main.init({
 });
 ```
 
-At the `import` Parcel will detect it's an Elm asset,
-use Elm to compile it and export the `Elm` JS object as we're
-used to initialize Elm in the DOM.
+At the `import` Parcel will detect that it's an Elm asset,
+so it will use Elm to compile it and then exports the `Elm` Javascript object as we use it
+to initialize Elm in the DOM.
 
 ## Running Parcel
 
-There are two main operations in Parcel. First one is development mode via
+There are two main operations in Parcel. First, you have a development mode via
 live-reloading server:
 
 ```
@@ -91,15 +91,15 @@ Server running at http://localhost:1234
 ✨  Built in 456ms.
 ```
 
-Open http://localhost:1234 and modify **src/Main.elm**. You should see
+Open http://localhost:1234 and modify **src/Main.elm**. You should see on the terminal
 
 ```
 ✨  Built in 123ms.
 ```
 
-and your page refreshed.
+and your page will be refreshed automatically.
 
-For producing your final bundle for production, second mode is used:
+To produce a final bundle for production, you use parcel with a command, `build`:
 
 ```
 $ yarn run parcel build index.html
@@ -113,22 +113,24 @@ dist/index.html                    288 B    442ms
 Done in 2.87s.
 ```
 
-Your minified, bundled Elm project ready to be deployed.
+Your minified, bundled Elm project is now ready to be deployed.
 
 ## Parcel isn't perfect (yet!)
 
 There are a few issues still around.
 
-- sometimes (I haven't been able to figure out when exactly, not often)
+- Sometimes (I haven't been able to figure out when exactly, not often)
   [live reloading doesn't work](https://github.com/parcel-bundler/parcel/issues/2147).
   The good news is Matt recently figured out what is going on so I'm confident
   the fix is imminent.
 
-- there is [no support for proxying request to your backend](https://github.com/parcel-bundler/parcel/issues/1562)
-  and it's not planned. I actual like that Parcel is focusing on one thing, but
-  you'll have to figure out how to glue frontend and backend on your own.
+- There is [no support for proxying request to your backend](https://github.com/parcel-bundler/parcel/issues/1562)
+  and it's not planned. I actually like that Parcel is focusing on one thing, but
+  you'll have to figure out how to glue frontend and backend on your own. We run
+  a reverse proxy in front of the live reloading server, which closely resembles
+  a production deployment.
 
-- [documentation](https://parceljs.org/getting_started.html) is quite succinct,
+- [Documentation](https://parceljs.org/getting_started.html) is quite succinct,
   mostly because you just keep importing assets and adding post-processing configuration
   like `.postcssrc` and Parcel will use that when processing CSS. However, getting the
   mental model how to assemble everything or when things break, your best luck is
