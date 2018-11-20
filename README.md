@@ -7,3 +7,7 @@ via github pages.
 # Install and build
 
   $ nix-build
+
+# Development
+
+  $ nix-shell --run "jeykll serve"
