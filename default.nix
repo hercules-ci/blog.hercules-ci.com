@@ -6,7 +6,7 @@ with pkgs;
 stdenv.mkDerivation {
   name = "blog.hercules-ci.com";
 
-  src = ./.;
+  src = lib.cleanSource ./.;
 
   buildInputs = [
     nodePackages.parcel-bundler
