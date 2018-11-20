@@ -4,7 +4,7 @@ email:       info@hercules-ci.com
 author:      Robert Hensing & Domen Kožar
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl:     ""
-url:         "https://www.hercules-ci.com"
+url:         "https://blog.hercules-ci.com"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
