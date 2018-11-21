@@ -136,6 +136,10 @@ There are a few issues still around.
   mental model how to assemble everything or when things break, your best luck is
   [the issue tracker](https://github.com/parcel-bundler/parcel/issues).
 
+- [HMR](https://parceljs.org/hmr.html) is possible via a 
+  [parcel plugin](https://github.com/ktosiek/parcel-plugin-elm-hot), hopefully it
+  will one day just ship with Parcel.
+
 That's it. Last but not least, we're building next-generation CI and binary
 caching services, take a look at [Hercules CI](https://hercules-ci.com) and
 [Cachix](https://cachix.org).
