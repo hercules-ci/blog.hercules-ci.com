@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Using Elm and Parcel for zero configuration asset management
+title:      Using Elm and Parcel for zero configuration web asset bundling
 date:       2018-11-20
 summary:    Tired of configuring webpack? A simple getting started guide to drop your 400 lines of javascript
 categories: elm
