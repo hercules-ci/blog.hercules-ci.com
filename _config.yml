@@ -2,7 +2,7 @@
 title:       Hercules Labs blog
 email:       info@hercules-ci.com
 author:      Robert Hensing & Domen Kožar
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+description: "Hercules CI and Cachix development blog"
 baseurl:     ""
 url:         "https://blog.hercules-ci.com"
 date_format: "%b %-d, %Y"
