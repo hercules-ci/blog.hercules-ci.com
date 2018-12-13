@@ -20,4 +20,4 @@ Some of the things we've built and worked on since NixCon:
 
 Since we've started dogfooding a few weeks ago, we've been getting valuable insight. There's plenty of things to do and bugs to fix. Once we're happy with the stability, we'll contact subscribers on early adopters list and start handing out access.
 
-Don't forget to fill out the [Early Access Poll](https://docs.google.com/forms/d/e/1FAIpQLSdPHH7Y-Kj8YlZHfMVKoNqY1BeoEh2llToN58XsLibVrQwJmQ/viewform) if you want to [participate or provide valuable input](https://docs.google.com/forms/d/e/1FAIpQLSdPHH7Y-Kj8YlZHfMVKoNqY1BeoEh2llToN58XsLibVrQwJmQ/viewform)!
+Don't forget to fill out the poll if you want to [participate or provide valuable input](https://docs.google.com/forms/d/e/1FAIpQLSdPHH7Y-Kj8YlZHfMVKoNqY1BeoEh2llToN58XsLibVrQwJmQ/viewform)!
