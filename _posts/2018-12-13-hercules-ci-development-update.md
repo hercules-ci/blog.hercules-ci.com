@@ -15,7 +15,7 @@ Some of the things we've built and worked on since NixCon:
  - Keeping track of agent state
  - Improved agent logging
  - Work on Cachix private caches
- - Opening a company
+ - Incorporation
  - Plenty of small fixes, improvements and some open source work
 
 Since we've started dogfooding a few weeks ago, we've been getting valuable insight. There's plenty of things to do and bugs to fix. Once we're happy with the stability, we'll contact subscribers on early adopters list and start handing out access.
