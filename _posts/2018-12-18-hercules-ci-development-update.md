@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Hercules CI Development Update
-date:       2018-12-13
+date:       2018-12-18
 summary:    Progress, features and more about the Early Access. We need your input!
 categories: hercules-ci
 ---
