@@ -23,3 +23,5 @@ Since we've started dogfooding a few weeks ago, we've been getting valuable insi
 Once we're happy with the stability, we'll contact email subscribers and start handing out early access.
 
 If you'd like to be part of early adopters or just be notified of development, make sure to subscribe to [Hercules CI](https://hercules-ci.com).
+
+-- Robert
