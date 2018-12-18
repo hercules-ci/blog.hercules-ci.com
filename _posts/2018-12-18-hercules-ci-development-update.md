@@ -20,7 +20,7 @@ Some of the things we've built and worked on since NixCon:
  - Plenty of small fixes, improvements and some open source work
 
 Since we've started dogfooding a few weeks ago, we've been getting valuable insight. There's plenty of things to do and bugs to fix. 
-Once we're happy with the stability, we'll contact email subscribers and start handing out early access.
+Once we're happy with the user experience for the minimal workflow, we'll contact email subscribers and start handing out early access.
 
 If you'd like to be part of early adopters or just be notified of development, make sure to subscribe to [Hercules CI](https://hercules-ci.com).
 
