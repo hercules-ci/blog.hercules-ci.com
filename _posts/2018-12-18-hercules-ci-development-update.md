@@ -19,6 +19,11 @@ Some of the things we've built and worked on since NixCon:
  - Incorporating
  - Plenty of small fixes, improvements and some open source work
 
+Here you can see attributes being streamed as they are evaluated
+and CI immediately starts to build each attribute and shows cached derivation statuses:
+
+![evaluating](images/evaluating.gif)
+
 Since we've started dogfooding a few weeks ago, we've been getting valuable insight. There's plenty of things to do and bugs to fix. 
 Once we're happy with the user experience for the minimal workflow, we'll contact email subscribers and start handing out early access.
 
