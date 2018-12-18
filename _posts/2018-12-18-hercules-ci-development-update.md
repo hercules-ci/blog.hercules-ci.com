@@ -20,7 +20,7 @@ Some of the things we've built and worked on since NixCon:
  - Plenty of small fixes, improvements and some open source work
 
 Here you can see attributes being streamed as they are evaluated
-and CI immediately starts to build each attribute and shows cached derivation:
+and CI immediately starts to build each attribute and shows cached derivation statuses:
 
 ![evaluating](images/evaluating.gif)
 
