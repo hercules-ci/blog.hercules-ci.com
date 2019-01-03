@@ -130,7 +130,7 @@ There are a few issues still around.
   you'll have to figure out how to glue frontend and backend on your own. We run
   a reverse proxy in front of the live reloading server, which closely resembles
   a production deployment. **UPDATE:** 
-  [there's an promising open PR](https://github.com/parcel-bundler/parcel/pull/2477)
+  [there's a promising PR in discussion](https://github.com/parcel-bundler/parcel/pull/2477)
 
 - [Documentation](https://parceljs.org/getting_started.html) is quite succinct,
   mostly because you just keep importing assets and adding post-processing configuration
