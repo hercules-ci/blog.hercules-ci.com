@@ -10,4 +10,4 @@ via github pages.
 
 # Development
 
-  $ nix-shell --run "jeykll serve"
+  $ nix-shell --run "jekyll serve"
