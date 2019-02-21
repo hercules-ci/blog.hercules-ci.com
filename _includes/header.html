@@ -1,7 +1,10 @@
 <header class="site-header px2 px-responsive">
   <div class="mt2 wrap">
     <div class="measure">
-      <a href="{{ site.url }}" class="site-title">{{ site.title }}</a>
+      <a href="{{ site.url }}" class="site-title">
+        <img src="{{ site.url }}/images/logo/hercules.png" height="50px" style="vertical-align: middle; margin-right: 10px">
+        <span>{{ site.title }}</span>
+      </a>
       <nav class="site-nav">
         {% include navigation.html %}
       </nav>
