@@ -13,7 +13,7 @@ You can now have unlimited number of binary caches shared between a group of dev
 protected from public use with just a few clicks.
 
 Authorization is based on GitHub organizations/teams (if this is a blocker for you,
-[please write down your use case and let us know](https://github.com/cachix/cachix/issues/181)).
+[let us know what you need](https://github.com/cachix/cachix/issues/181)).
 
 To get started, head over to [https://cachix.org](https://cachix.org) and choose a plan that suits your
 private binary cache needs:
