@@ -38,7 +38,7 @@ Then run:
     $ nixos-rebuild switch
 ```
 
-The feedback we got from the poll answers, it's clear what we should do next:
+Thank you for your feedback in the poll answers. It's clear what we should do next:
 
 1. [Multiple signing keys (key rotation, multiple trusted users, ...)](https://github.com/cachix/cachix/issues/146)
 
