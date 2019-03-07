@@ -2,7 +2,7 @@
 layout:     post
 title:      Announcing Cachix private binary caches and 0.2.0 release
 date:       2019-03-07
-summary:    You can now have unlimited number of binary caches shared between a group of developers, protected from public use with just a few clicks.
+summary:    You can now share an unlimited number of binary caches in your group of developers, protected from public use with just a few clicks.
 categories: cachix nix
 ---
 
