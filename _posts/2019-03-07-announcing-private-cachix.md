@@ -6,9 +6,9 @@ summary:    You can now share an unlimited number of binary caches in your group
 categories: cachix nix
 ---
 
-In March 2018 I've set myself on a mission to streamline Nix usage in teams.
-
+In March 2018 we've set on a mission to streamline Nix usage in teams.
 Today we are shipping Nix private binary cache support to [Cachix](https://cachix.org).
+
 You can now share an unlimited number of binary caches in your group of developers,
 protected from public use with just a few clicks.
 
