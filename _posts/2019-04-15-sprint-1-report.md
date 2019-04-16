@@ -6,7 +6,7 @@ summary:    Hercules CI development progress report
 categories: sprints, hercules-ci
 ---
 
-Two weeks ago we launched preview access of [our CI](https://hercules-ci.com) for the [Nix](https://nixos.org/nix/) ecosystem.
+Two weeks ago we launched preview access of [our CI](https://hercules-ci.com) for [Nix](https://nixos.org/nix/) users.
 Thank you all for giving us the feedback through the poll and individually.
 We are overwhelmed with the support we got.
 
