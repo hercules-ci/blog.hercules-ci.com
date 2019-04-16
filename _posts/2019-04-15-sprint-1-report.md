@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Sprint &#35;1 development update
-date:       2019-04-12
+date:       2019-04-16
 summary:    Hercules CI development progress report
 categories: sprints, hercules-ci
 ---
