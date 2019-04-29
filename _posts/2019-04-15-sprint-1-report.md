@@ -44,7 +44,7 @@ The following bugs fixes were shipped:
   * some jobs used to be stuck in Building phase
   * more minor improvements
 
-In our upcoming spring, #2 we will focus on:
+In our upcoming sprint, #2 we will focus on:
 
 - Fine-grained dispatch of individual derivations (instead of just top-level derivation closures from
   attributes as we shipped in the preview) - what follows is testing and
