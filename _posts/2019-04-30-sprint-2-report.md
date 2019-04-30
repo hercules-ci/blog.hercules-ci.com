@@ -3,6 +3,7 @@ layout:     post
 title:      Sprint &#35;2 development update
 date:       2019-04-30
 summary:    Hercules CI development progress report
+image:      sprint_2_job.png
 categories: sprints, hercules-ci
 ---
 
