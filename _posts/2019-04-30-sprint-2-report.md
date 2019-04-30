@@ -46,5 +46,7 @@ derivations to a specific group of agents.
 
 # Preview phase
 
-You're still in time to [sign up for preview access](https://hercules-ci.com) as we
-will be expanding access in the following weeks.
+You're still in time to [sign up for preview access](https://hercules-ci.com) or follow us on 
+[Twitter](https://twitter.com/hercules_ci) as we will be expanding access in the following weeks.
+
+
