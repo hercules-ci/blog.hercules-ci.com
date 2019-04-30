@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Sprint &#35;2 development update
-date:       2019-04-29
+date:       2019-04-30
 summary:    Hercules CI development progress report
 categories: sprints, hercules-ci
 ---
@@ -11,8 +11,7 @@ categories: sprints, hercules-ci
 ## Precise derivations
 
 Agent 0.2 will communicate the whole derivation tree to our service,
-which allows us to traverse the derivation tree and dispatch each to multiple agents.
-In the very near future to different platforms (Darwin, ...) and other ways (e.g system features).
+which allows us to traverse the derivation tree and dispatch each derivation to multiple agents.
 
 Neither source or binary data used by Nix on the agent is ever sent to
 the service.
@@ -22,13 +21,13 @@ as we're still doing testing and UI improvements.
 
 ## Git-rich metadata
 
-Each job now includes branch name, commit message and the committer:
+Each job now includesa a branch name, commit message and the committer:
 
 ![Job rich metadata](/images/sprint_2_git_rich.png)
 
 ## Job page information
 
-Job page shows information what triggered the build and timing information:
+The job page shows information that triggered the build and timing information:
 
 ![Job page](/images/sprint_2_job.png)
 
@@ -41,9 +40,9 @@ there's the actual pushing of derivations to be done.
 
 ## Darwin / Features support
 
-Now that precise derivations are working, darwin support needs to be added to
-dispatching logic. Same goes for infamous Nix "features" that allow per-derivation
-granuality of dispatching derivations to specific group of agents.
+Now that precise derivations are working, they need to get aware of platforms for Darwin support.
+Same goes for infamous Nix "features" that allow per-derivation granuality of dispatching
+derivations to a specific group of agents.
 
 # Preview phase
 
