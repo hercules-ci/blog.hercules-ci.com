@@ -1,0 +1,3 @@
+- [ ] pick an image from https://unsplash.com/search/photos/pattern
+- [ ] proofread
+- [ ] publish on twitter/hercules_ci, nixos weekly
