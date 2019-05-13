@@ -1,3 +1,4 @@
 - [ ] pick an image from https://unsplash.com/search/photos/pattern
+- [ ] link sprint report to previous sprint
 - [ ] proofread
 - [ ] publish on twitter/hercules_ci, nixos weekly
