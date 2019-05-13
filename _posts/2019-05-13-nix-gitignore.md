@@ -26,7 +26,7 @@ mkDerivation {
 ```
 
 This works well, until you find that Nix unexpectedly rebuilds your derivation
-because a temporary, hidden file has changed. One of those file you filtered
+because a temporary, hidden file has changed. One of those files you filtered
 out of your git tree with a 'gitignore' file...
 
 Nix, as a build tool or package manager, was not designed with any specific version
