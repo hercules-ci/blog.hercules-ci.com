@@ -34,10 +34,9 @@ control system in mind. In fact it predates any dominance of git, because Nix's
 general solution to the file ignoring problem, `filterSource`, was already
 implemented in 2007.
 
-Over the last two to three years a couple of solutions have been written by various
-people to reuse these gitignore files in automatic source filtering functions.
+Over the last two to three years, various people have written functions to reuse these gitignore files.
 We have been using an [implementation](https://github.com/siers/nix-gitignore) by [@siers](https://github.com/siers)
-over the last couple of months and it has served use well, until we had a gitignore
+over the last couple of months and it has served us well, until we had a gitignore
 file that wasn't in the source directory we wanted to use.
 
 I was [nerd sniped](https://xkcd.com/356/).
@@ -58,7 +57,9 @@ mkDerivation {
 }
 ```
 
-It composes with `cleanSourceWith` if you like to filter out some other files as well.
+That's all there is to it.
+
+It also composes with `cleanSourceWith` if you like to filter out some other files as well.
 
 # Comparison
 
