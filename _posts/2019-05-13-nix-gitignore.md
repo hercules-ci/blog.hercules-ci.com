@@ -47,10 +47,15 @@ uses no more import from derivation and can read all the files that it needs to.
 
 # How to use it
 
-Simply import the `gitignoreSource` function [from the repo](https://github.com/hercules-ci/gitignore#README)
-and call it like so
+You can import the `gitignoreSource` function [from the repo](https://github.com/hercules-ci/gitignore#README) like below, or use your [favorite](https://github.com/nmattia/niv) 
+[pinning](https://nixos.wiki/wiki/FAQ/Pinning_Nixpkgs) method.
 
 ```nix
+{ pkgs ? import <nixpkgs> {} }
+let
+  inherit (pkgs.stdenv) mkDerivation;
+  inherit (import (builtins.fetchTarball "https://github.com/hercules-ci/gitignore/archive/master.tar.gz") { }) gitignoreSource;
+in
 mkDerivation {
   name = "hello";
   src = gitignoreSource ./vendored/hello;
