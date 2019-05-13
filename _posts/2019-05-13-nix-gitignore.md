@@ -76,7 +76,6 @@ The latest [up to date comparison table](https://github.com/hercules-ci/gitignor
 |Uses user gitignores                     |   |   |   |   |   | ✔️ | ✔️ 
 |Works with `restrict-eval` / Hydra       | ✔️ | ✔️ |   | ✔️ | ✔️ |   | ✔️
 |Included in nixpkgs                      | ✔️ | ✔️ | ✔️ |   |   |   |
-<!-- |No traversal of ignored dirs             | - | ✔️ |✔️ ?| ✔️ |✔️ ?|✔️ ?| ✔️ ? -->
 
 |   | Legend |
 |---|-------------------------------------|
