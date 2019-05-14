@@ -45,9 +45,9 @@ Darwin agent deployment with accompanying documentation.
 
 ## Stuck jobs when restarting the agent
 
-Currently jobs claimed by agent that don't finish while agent is being restarted
-will appear stuck in queue. This sprint is [planned](https://github.com/hercules-ci/support/issues/19)
-to ship a way to remedy the issue manually via UI, later on it will be automatically
+Currently when you restart an agent that is doing work, jobs claimed by agent
+will appear stuck in the queue. This sprint is [planned](https://github.com/hercules-ci/support/issues/19)
+to ship a way to remedy the issue manually via the UI. Later on it will be automatically
 handled by agent ping-alive.
 
 # Preview phase
@@ -55,5 +55,5 @@ handled by agent ping-alive.
 Once we're done with Darwin and Cachix support we'll hand out preview access
 to everyone that will [sign up for preview access](https://hercules-ci.com) until then.
 
-You can also [receive latest updates via Twitter](https://twitter.com/hercules_ci) or
-read [previous development update](https://blog.hercules-ci.com/sprints,/hercules-ci/2019/04/30/sprint-2-report/).
+You can also [receive our latest updates via Twitter](https://twitter.com/hercules_ci) or
+read [the previous development update](https://blog.hercules-ci.com/sprints,/hercules-ci/2019/04/30/sprint-2-report/).
