@@ -44,7 +44,7 @@ I was [nerd sniped](https://xkcd.com/356/).
 
 Two months later, I finally got around to the implementation and I'm happy to announce
 that it solves some other problems as well. It reuses the tested rules by siers,
-uses no more import from derivation and can read all the files that it needs to.
+uses no more [import from derivation](https://nixos.wiki/wiki/Import_From_Derivation) and can read all the files that it needs to.
 
 # How to use it
 
