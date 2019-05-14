@@ -32,7 +32,7 @@ out of your git tree with a 'gitignore' file...
 
 Nix, as a build tool or package manager, was not designed with any specific version
 control system in mind. In fact it predates any dominance of git, because Nix's
-general solution to the file ignoring problem, `filterSource`, was already
+general solution to the file ignoring problem, [filterSource](https://nixos.org/nix/manual/#builtin-filterSource), was already
 implemented in 2007.
 
 Over the last two to three years, various people have written functions to reuse these gitignore files.
