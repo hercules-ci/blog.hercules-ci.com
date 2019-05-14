@@ -107,4 +107,6 @@ I think it would be really nice to have this function in Nixpkgs, but it needs t
 
 I am happy to contribute to the friendly and inventive Nix community. Even though this gitignore project is just a small contribution, it wouldn't have been possible without the ideas and work of siers, icetan, and everyone behind Nix and Nixpkgs in general.
 
+As a company we working hard to make good products to support the community and companies that want to use Nix. One of our goals is to keep making contributions like this, so please try our [binary cache as a service](https://cachix.org/), which is free for open source and just as easy to set up privately for companies. If you have an interest in [our Nix CI, please subscribe](https://hercules-ci.com).
+
 -- Robert
