@@ -4,6 +4,7 @@ title:      Announcing Cachix private binary caches and 0.2.0 release
 date:       2019-03-07
 summary:    You can now share an unlimited number of binary caches in your group of developers, protected from public use with just a few clicks.
 categories: cachix nix
+author: domenkozar
 ---
 
 In March 2018 we've set on a mission to streamline Nix usage in teams.
@@ -47,5 +48,3 @@ Thank you for your feedback in the poll answers. It's clear what we should do ne
 3. [Documentation](https://github.com/cachix/cachix/issues/19)
 
 Happy cache sharing!
-
--- Domen

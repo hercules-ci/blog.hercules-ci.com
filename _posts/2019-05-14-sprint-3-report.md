@@ -4,6 +4,7 @@ title:      Hercules CI &#35;3 development update
 date:       2019-05-14
 summary:    Precise derivations and new agent release
 image:      dependency-failure-tree.png
+author:     domenkozar
 categories: sprints, hercules-ci
 ---
 

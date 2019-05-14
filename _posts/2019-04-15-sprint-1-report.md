@@ -4,6 +4,7 @@ title:      Sprint &#35;1 development update
 date:       2019-04-16
 summary:    Hercules CI development progress report
 categories: sprints, hercules-ci
+author: domenkozar
 ---
 
 Two weeks ago we launched preview access of [our CI](https://hercules-ci.com) for [Nix](https://nixos.org/nix/) users.

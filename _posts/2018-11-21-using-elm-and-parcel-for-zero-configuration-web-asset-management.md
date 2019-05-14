@@ -4,6 +4,7 @@ title:      Using Elm and Parcel for zero configuration web asset management
 date:       2018-11-21
 summary:    Tired of configuring webpack? A simple getting started guide to drop your 400 lines of javascript
 categories: elm
+author: domenkozar
 ---
 
 At some point our frontend had ~200 lines of Webpack configuration and
@@ -122,14 +123,14 @@ There are a few issues still around.
 - Sometimes (I haven't been able to figure out when exactly, not often)
   [live reloading doesn't work](https://github.com/parcel-bundler/parcel/issues/2147).
   The good news is Matt recently figured out what is going on so I'm confident
-  the fix is imminent. **UPDATE**: 
+  the fix is imminent. **UPDATE**:
   [going to be part of upcoming Parcel 1.11.1 release](https://github.com/parcel-bundler/parcel/pull/2475)
 
 - There is [no support for proxying request to your backend](https://github.com/parcel-bundler/parcel/issues/1562)
   and it's not planned. I actually like that Parcel is focusing on one thing, but
   you'll have to figure out how to glue frontend and backend on your own. We run
   a reverse proxy in front of the live reloading server, which closely resembles
-  a production deployment. **UPDATE:** 
+  a production deployment. **UPDATE:**
   [there's a promising PR in discussion](https://github.com/parcel-bundler/parcel/pull/2477)
 
 - [Documentation](https://parceljs.org/getting_started.html) is quite succinct,
@@ -138,13 +139,11 @@ There are a few issues still around.
   mental model how to assemble everything or when things break, your best luck is
   [the issue tracker](https://github.com/parcel-bundler/parcel/issues).
 
-- [HMR](https://parceljs.org/hmr.html) is possible via a 
+- [HMR](https://parceljs.org/hmr.html) is possible via a
   [parcel plugin](https://github.com/ktosiek/parcel-plugin-elm-hot), hopefully it
-  will one day just ship with Parcel. **UPDATE:** 
+  will one day just ship with Parcel. **UPDATE:**
   [now part of Parcel 1.11.0 release](https://github.com/parcel-bundler/parcel/blob/parcel-bundler%401.11.0/CHANGELOG.md#1110---2018-12-18)
 
 That's it. Last but not least, we're building next-generation CI and binary
 caching services, take a look at [Hercules CI](https://hercules-ci.com) and
 [Cachix](https://cachix.org).
-
--- Domen
