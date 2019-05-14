@@ -4,6 +4,7 @@ title:      gitignore for Nix
 date:       2019-05-13
 summary:    Using local sources in Nix, respecting your gitignores
 categories: nix
+image:      gitignore-for-nix.jpg
 ---
 
 # Summary
