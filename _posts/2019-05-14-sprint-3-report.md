@@ -53,7 +53,7 @@ handled by agent ping-alive.
 # Preview phase
 
 Once we're done with Darwin and Cachix support we'll hand out preview access
-to everyone that will [sign up for preview access](https://hercules-ci.com) until then.
+to everyone who will have [signed up for preview access](https://hercules-ci.com).
 
 You can also [receive our latest updates via Twitter](https://twitter.com/hercules_ci) or
 read [the previous development update](https://blog.hercules-ci.com/sprints,/hercules-ci/2019/04/30/sprint-2-report/).
