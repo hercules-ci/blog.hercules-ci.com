@@ -99,6 +99,10 @@ The latest [up to date comparison table](https://github.com/hercules-ci/gitignor
 |?  | Probably not supported
 |-  | Not applicable or depends
 
+# Inclusion in Nixpkgs
+
+I think it would be really nice to have this function in Nixpkgs, but it needs to be tested in practice first. This is where you can help out! Please give the [project (GitHub)](https://github.com/hercules-ci/gitignore/) a spin and [leave a thumbs up if it worked for you (issue)](https://github.com/hercules-ci/gitignore/issues/6).
+
 # Closing thoughts
 
 I am happy to contribute to the friendly and inventive Nix community. Even though this gitignore project is just a small contribution, it wouldn't have been possible without the ideas and work of siers, icetan, and everyone behind Nix and Nixpkgs in general.
