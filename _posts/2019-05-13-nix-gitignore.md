@@ -46,7 +46,7 @@ Two months later, I finally got around to the implementation and I'm happy to an
 that it solves some other problems as well. It reuses the tested rules by siers,
 uses no more [import from derivation](https://nixos.wiki/wiki/Import_From_Derivation) and can read all the files that it needs to.
 
-# How to use it
+# Usage
 
 You can import the `gitignoreSource` function [from the repo](https://github.com/hercules-ci/gitignore#README) like below, or use your [favorite](https://github.com/nmattia/niv) 
 [pinning](https://nixos.wiki/wiki/FAQ/Pinning_Nixpkgs) method.
