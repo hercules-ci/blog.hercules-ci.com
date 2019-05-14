@@ -17,7 +17,7 @@ categories: sprints, hercules-ci
 If a **dependency failed for an attribute**, you can now explore the
 dependency stack until the actual build failure.
 
-There's also a **rebuild button** to re-retry build for whole stack.
+There's also a **rebuild button** to retry the build for the whole stack, from the failed dependency down up to and including the build you clicked.
 We've addressed some of the styling issues visible on smaller screens.
 
 ## Fixed an issue where users would [end up being logged out](https://github.com/hercules-ci/support/issues/13)
