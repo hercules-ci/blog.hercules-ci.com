@@ -38,7 +38,7 @@ implemented in 2007.
 Over the last two to three years, various people have written functions to reuse these gitignore files.
 We have been using an [implementation](https://github.com/siers/nix-gitignore) by [@siers](https://github.com/siers)
 over the last couple of months and it has served us well, until we had a gitignore
-file that wasn't in the source directory we wanted to use.
+file that wasn't detected because it was in a parent directory of the source directory we wanted to use.
 
 I was [nerd sniped](https://xkcd.com/356/).
 
