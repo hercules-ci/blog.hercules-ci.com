@@ -9,12 +9,11 @@ image:      gitignore-for-nix.jpg
 
 ### Abstract
 
-Nix, when used as a development build tool, needs to solve the same problem git has to solve: ignore some files.
-We've [adapted](https://github.com/hercules-ci/gitignore/) an existing project so that Nix can more reliably use all of the configuration that you already wrote for git.
+[Nix](https://nixos.org/nix), when [used](https://builtwithnix.org/) as a development build tool, needs to solve the same problem that git does: ignore some files.
+We've [extended](https://github.com/hercules-ci/gitignore/) `nix-gitignore` so that Nix can more reliably use the configuration that you've already written for git.
 
 # Introduction
 
-Our applications are [built](https://builtwithnix.org/) and deployed with Nix.
 When you tell Nix to build your project, you need to tell it which source files
 to build. This is done by using path syntax in a derivation or string interpolation.
 
