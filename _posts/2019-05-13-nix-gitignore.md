@@ -94,6 +94,6 @@ The latest [up to date comparison table](https://github.com/hercules-ci/gitignor
 
 # Closing thoughts
 
-I am happy to contribute to the friendly and inventive community that is the Nix community. Even though this gitignore project is just a small contribution, it wouldn't have been possible without the ideas and work of siers, icetan, and everyone behind Nix and Nixpkgs in general.
+I am happy to contribute to the friendly and inventive Nix community. Even though this gitignore project is just a small contribution, it wouldn't have been possible without the ideas and work of siers, icetan, and everyone behind Nix and Nixpkgs in general.
 
 -- Robert
