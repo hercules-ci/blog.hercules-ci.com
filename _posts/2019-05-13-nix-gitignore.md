@@ -19,8 +19,13 @@ to build. This is done by using path syntax in a derivation or string interpolat
 
 ```nix
 mkDerivation {
-  src = ./vendor/cowsay;
-  patches = [ ./cowsay-add-alpaca.patch ];
+  src = ./vendored/cowsay;
+  postPatch = ''
+    # Contrived example of using a file in string interpolation
+    # The patch file is put in /nix/store and the interpolation
+    # produces the appropriate store path.
+    patch -lR ${./cowsay-remove-alpaca.patch}
+  '';
   # ...
 }
 ```
@@ -57,8 +62,11 @@ let
   inherit (import (builtins.fetchTarball "https://github.com/hercules-ci/gitignore/archive/master.tar.gz") { }) gitignoreSource;
 in
 mkDerivation {
-  name = "hello";
-  src = gitignoreSource ./vendored/hello;
+  src = gitignoreSource ./vendored/cowsay;
+  postPatch = ''
+    patch -lR ${./cowsay-remove-alpaca.patch}
+  '';
+  # ...
 }
 ```
 
