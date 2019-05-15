@@ -65,7 +65,11 @@
 
     {% if site.twitter_username %}
         <!-- Twitter Card -->
-        <meta name="twitter:card" content="summary" />
+        {% if page.image %}
+          <meta property="twitter:card" content="summary_large_image">
+        {% else %}
+          <meta name="twitter:card" content="summary" />
+	{% endif %}
         <meta name="twitter:site" content="@{{ site.twitter_username }}" />
         <meta name="twitter:creator" content="@{{ site.twitter_username }}" />
     {% endif %}
