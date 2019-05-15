@@ -89,6 +89,7 @@ The latest [up to date comparison table](https://github.com/hercules-ci/gitignor
 |Uses subdirectory gitignores             |   |   | ✔️ |   |   | ✔️ | ✔️ 
 |Uses parent gitignores                   |   |   |   |   |   |✔️ ?| ✔️ 
 |Uses user gitignores                     |   |   |   |   |   | ✔️ | ✔️ 
+|Has a test suite                         |   | ✔️ | ✔️ | ✔️ |   | ? | ✔️
 |Works with `restrict-eval` / Hydra       | ✔️ | ✔️ |   | ✔️ | ✔️ |   | ✔️
 |Included in nixpkgs                      | ✔️ | ✔️ | ✔️ |   |   |   |
 
@@ -96,7 +97,7 @@ The latest [up to date comparison table](https://github.com/hercules-ci/gitignor
 |---|-------------------------------------|
 |✔️  | Supported
 |✔️ ?| Probably supported
-|   | Probably not supported
+|   | Not supported
 |?  | Probably not supported
 |-  | Not applicable or depends
 
