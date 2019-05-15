@@ -15,7 +15,7 @@ categories: sprints, hercules-ci
 ![Dependency failure tree](/images/dependency-failure-tree.png)
 
 If a **dependency failed for an attribute**, you can now explore the
-dependency stack until the actual build failure.
+dependency stack down to the actual build failure.
 
 There's also a **rebuild button** to retry the build for the whole stack, from the failed dependency down up to and including the build you clicked.
 We've addressed some of the styling issues visible on smaller screens.
