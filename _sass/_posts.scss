@@ -27,10 +27,14 @@
   text-align: center;
 }
 
-.post-footer .avatar {
-  margin: 2rem 0;
-  width: 100px;
+.avatar {
+  margin: 10px;
   border-radius: 50%;
+  vertical-align: middle;
+}
+
+.post-footer .avatar {
+  width: 100px;
 }
 
 .meta,

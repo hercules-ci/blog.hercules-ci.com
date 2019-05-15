@@ -5,6 +5,7 @@ date:       2019-04-30
 summary:    Hercules CI development progress report
 image:      sprint_2_job.png
 categories: sprints, hercules-ci
+author:     domenkozar
 ---
 
 # What's new in sprint #2?

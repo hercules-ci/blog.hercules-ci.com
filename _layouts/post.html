@@ -3,12 +3,19 @@ layout: default
 ---
 
 {% assign minutes = content | strip_html | number_of_words | divided_by: 180 %}
+{% assign author = site.data.authors[page.author] %}
 {% if minutes == 0 %}
 {% assign minutes = 1 %}
 {% endif %}
 
 <div class="post-header mb2">
   <h1>{{ page.title }}</h1>
+  {% if author %}
+  <p class="post-meta">
+    <img class="avatar" src="https://github.com/{{ author.github }}.png?size=120" width=40 />
+    {{ author.name }}
+  </p>
+  {% endif %}
   <span class="post-meta">{{ page.date | date: site.date_format }}</span><br>
   {% if page.update_date %}
     <span class="post-meta">{{ site.text.post.updated }}: {{ page.update_date | date: site.date_format }}</span><br>
