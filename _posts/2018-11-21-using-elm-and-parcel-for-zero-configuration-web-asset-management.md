@@ -133,10 +133,10 @@ There are a few issues still around.
   a production deployment. **UPDATE:**
   [there's a promising PR in discussion](https://github.com/parcel-bundler/parcel/pull/2477)
 
-- [Documentation](https://parceljs.org/getting_started.html) is quite succinct,
+- [Documentation](https://parceljs.org/getting_started.html) is a quite succinct,
   mostly because you just keep importing assets and adding post-processing configuration
   like `.postcssrc` and Parcel will use that when processing CSS. However, getting the
-  mental model how to assemble everything or when things break, your best luck is
+  mental model how to assemble everything or when things break, your best bet is
   [the issue tracker](https://github.com/parcel-bundler/parcel/issues).
 
 - [HMR](https://parceljs.org/hmr.html) is possible via a

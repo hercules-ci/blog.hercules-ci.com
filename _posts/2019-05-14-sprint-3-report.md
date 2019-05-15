@@ -39,20 +39,20 @@ We've addressed some of the styling issues visible on smaller screens.
 
 ## Cachix and thus Darwin support
 
-Last bits missing (besides testing) is sharing derivations and artifacts between agents using
+The last bits missing (besides testing) are sharing derivations and artifacts between agents using
 [cachix](https://github.com/hercules-ci/hercules-ci-agent/pull/52) and the ease of
 Darwin agent deployment with accompanying documentation.
 
 ## Stuck jobs when restarting the agent
 
-Currently when you restart an agent that is doing work, jobs claimed by agent
+Currently when you restart an agent that is doing work, jobs claimed by the agent
 will appear stuck in the queue. This sprint is [planned](https://github.com/hercules-ci/support/issues/19)
 to ship a way to remedy the issue manually via the UI. Later on it will be automatically
 handled by agent ping-alive.
 
 # Preview phase
 
-Once we're done with Darwin and Cachix support we'll hand out preview access
+Once we're done with Darwin and Cachix support, we'll hand out preview access
 to everyone who will have [signed up for preview access](https://hercules-ci.com).
 
 You can also [receive our latest updates via Twitter](https://twitter.com/hercules_ci) or
