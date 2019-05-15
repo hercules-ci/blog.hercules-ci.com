@@ -8,7 +8,7 @@ author:     domenkozar
 categories: sprints, hercules-ci
 ---
 
-# What's new in sprint #3?
+What's new?
 
 ## Precise derivations improvements
 
@@ -35,7 +35,7 @@ We've addressed some of the styling issues visible on smaller screens.
 [nix-gitignore]: https://github.com/siers/nix-gitignore
 [gitignore]: https://github.com/hercules-ci/gitignore
 
-# Focus for sprint #3
+# Focus for the next sprint
 
 ## Cachix and thus Darwin support
 
