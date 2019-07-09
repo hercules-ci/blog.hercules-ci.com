@@ -18,7 +18,7 @@ We've released [hercules-ci-agent 0.3](https://github.com/hercules-ci/hercules-c
 
 ### TOML configuration
 
-Previously agent was configured via CLI options. Those are now all part of [configuration file formatted using TOML](https://docs.hercules-ci.com/#agent-configuration-file).
+Previously the agent was configured via CLI options. Those are now all part of a [configuration file formatted using TOML](https://docs.hercules-ci.com/#agent-configuration-file).
 
 ### Support for binary caches
 
@@ -28,7 +28,7 @@ to share resulting binaries either with the public and/or between developers and
 ### Multi-agent and Darwin support
 
 With binary caches to share derivations and binaries between machines,
-you're now able to have N agents running.
+you're now able to have multiple agents running.
 
 Sharing binaries between machines takes time (bandwidth) so we
 recommend upgrading agent hardware over adding more agents.
@@ -46,7 +46,7 @@ Upgrade via the usual:
 
     $ nix-env -iA cachix -f https://cachix.org/api/v1/install  
 
-Most notable improvement is default compression has been lowered to increase bandwidth throughput and it's overridable via ``--compression-level`.
+The most notable improvement is default compression has been lowered to increase throughput and it's overridable via ``--compression-level`.
 
 See [Changelog](https://github.com/cachix/cachix/blob/master/cachix/CHANGELOG.md#021---2019-07-05) for more details.
 
@@ -54,8 +54,8 @@ See [Changelog](https://github.com/cachix/cachix/blob/master/cachix/CHANGELOG.md
 
 Known issues we're resolving:
 
-- Builds that are in-progress while agent is restarted won't be re-queued. We're prioritizing this one, expect a bugfix in next deployment.
-- Evaluation and building is slower with Cachix, we're going to add [bulk query support](https://github.com/cachix/cachix/issues/201) 
+- Builds that are in progress while agent is restarted won't be re-queued. We're prioritizing this one. Expect a bugfix in next deployment.
+- Evaluation and building is slower with Cachix. We're going to add [bulk query support](https://github.com/cachix/cachix/issues/201) 
   and [upstream caches](https://github.com/cachix/cachix/issues/16) to mitigate that.
 - Having a lot of failed derivations (>10k) will get frontend unresponsive.
 - Cachix auth tokens for private binary caches are personal. We'll add support to create tokens specific to a cache.
@@ -64,7 +64,7 @@ If you notice any other bugs or annoyances please [let us know](help@hercules-ci
 
 # Preview phase
 
-Preview phase will now extend to all subscribers, which is the final phase before we're launching publicly.
+The preview phase will now extend to all subscribers, which is the final phase before we're launching publicly.
 
 You can also [receive our latest updates via Twitter](https://twitter.com/hercules_ci) or
 read [the previous development update](https://blog.hercules-ci.com/sprints,/hercules-ci/2019/05/14/sprint-3-report/).
