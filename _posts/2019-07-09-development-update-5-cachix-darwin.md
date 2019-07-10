@@ -3,7 +3,7 @@ layout:     post
 title:      Hercules CI &#35;5 update requiredSystemFeatures, Cachix and Darwin support
 date:       2019-07-09
 summary:    Cachix and Darwin
-image:      sprint_5_cachix_darwin.png
+image:      update_5_cachix_darwin.png
 author:     domenkozar
 categories: sprints, hercules-ci
 ---
