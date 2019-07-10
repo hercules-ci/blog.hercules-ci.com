@@ -1,4 +1,6 @@
 - [ ] pick an image from https://unsplash.com/search/photos/pattern
 - [ ] link sprint report to previous sprint
 - [ ] proofread
+- [ ] merge PR
+- [ ] verify link on https://cards-dev.twitter.com/validator
 - [ ] publish on twitter/hercules_ci, nixos weekly
