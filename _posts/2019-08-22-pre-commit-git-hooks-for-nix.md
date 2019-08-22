@@ -12,10 +12,9 @@ categories: nix
 
 ![pre-commit.png](/images/nix-pre-commit.png)
 
-Common hooks include static analysis like source formatting, linting, etc.
+Common hooks range from static analysis or linting to source formatting.
 
-Since we're managing quite a couple of repositories, decentralized maintaining of
-the hooks became a development burden.
+Since we're managing quite a couple of repositories, maintaining the duplicated definitions became a burden.
 
 Hence we created:
 
@@ -47,7 +46,7 @@ Currently the following hooks are provided:
 
 ## Elm
 
-- [elm-format](https://github.com/avh4/elm-format)
+- [elm-format](https://github.com/avh4/elm-format) source formatter
 
 ## Shell
 
