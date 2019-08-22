@@ -2,7 +2,7 @@
 layout:     post
 title:      Pre-commit git hooks with Nix
 date:       2019-08-22
-summary:    Four small steps towards CI and development supported pre-commit hooks
+summary:    Pre-commit linting and formatting that agrees with your CI
 image:      nix-pre-commit.png
 author:     domenkozar
 categories: nix
