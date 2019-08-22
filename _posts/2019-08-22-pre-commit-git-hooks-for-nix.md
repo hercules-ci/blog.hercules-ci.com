@@ -26,7 +26,7 @@ The goal is to manage these hooks with Nix and solve the following:
 - Simpler integration into Nix projects, doing the wiring up behind the scenes
 
 - Provide a low-overhead build of all the tooling available for the hooks to use
-   (naive implementation of calling nix-shell does bring some latency when committing)
+   (calling nix-shell for every check does bring some latency when committing)
 
 - Common package set of hooks for popular languages like Haskell, Elm, etc.
 
