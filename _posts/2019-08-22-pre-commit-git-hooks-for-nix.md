@@ -37,13 +37,13 @@ Currently the following hooks are provided:
 
 ## Nix
 
-- [canonix](https://github.com/hercules-ci/canonix/)
+- [canonix](https://github.com/hercules-ci/canonix/): a Nix formatter (currently incomplete, requiring some manual formatting as well)
 
 ## Haskell
 
-- [ormolu](https://github.com/tweag/ormolu)
-- [hlint](https://github.com/ndmitchell/hlint)
-- [cabal-fmt](https://github.com/phadej/cabal-fmt)
+- [ormolu](https://github.com/tweag/ormolu) source formatter
+- [hlint](https://github.com/ndmitchell/hlint) source linter
+- [cabal-fmt](https://github.com/phadej/cabal-fmt) package description formatter
 
 ## Elm
 
@@ -51,7 +51,7 @@ Currently the following hooks are provided:
 
 ## Shell
 
-- [shellcheck](https://github.com/koalaman/shellcheck)
+- [shellcheck](https://github.com/koalaman/shellcheck) bash linter
 
 We encourage everyone to contribute additional hooks.
 
