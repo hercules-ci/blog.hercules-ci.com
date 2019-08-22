@@ -63,7 +63,7 @@ for latest up-to-date installation steps.
 
 ---
 
-## What do we do?
+## What we do
 
 Automated hosted infrastructure for Nix, reliable and reproducible developer tooling, to speed up adoption and lower integration cost.
 We offer [Continuous Integration](https://hercules-ci.com) and [binary caches](https://cachix.org).
