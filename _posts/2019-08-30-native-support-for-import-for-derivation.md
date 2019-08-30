@@ -138,17 +138,14 @@ In case of build errors during evaluation UI will show you all the details inclu
 
 In order to use IFD support you will need to upgrade to [hercules-ci-agent-0.4.0](https://github.com/hercules-ci/hercules-ci-agent/releases/tag/hercules-ci-agent-0.4.0).
 
-# Drawbacks
+# Future work
 
-- Nix evaluation is currently single threaded. While evaluation is waiting for the
-  build, it's blocking. It's future work to make evaluation concurrent.
+Some Nix tools already embrace IFD, such as [haskell.nix](https://input-output-hk.github.io/haskell.nix/),
+[yarn2nix (Node.js)](https://github.com/moretea/yarn2nix) and [pnpm2nix (Node.js)](https://github.com/adisbladis/pnpm2nix).
 
-- IFD creates some overhead, but it's paid only when dependencies change.
+We encourage more language tools to take advantage of this feature.
 
-- Some Nix tools already embrace IFD:
-  - haskell.nix
-  - [pnpm2nix for Node.js (NPM)](https://github.com/adisbladis/pnpm2nix)
-  - [yarn2nix for Node.js (Yarn)](https://github.com/moretea/yarn2nix)
+Currently Nix evaluation is single threaded and IFD evaluation is blocking until the builds are done. We have some ideas to make IFD concurrent.
 
 We believe this is **a huge step forward to simplify day-to-day Nix development**.
 
