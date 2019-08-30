@@ -1,11 +1,11 @@
 ---
 layout:     post
 title:      Native support for import-from-derivation
-date:       2019-08-29
+date:       2019-08-30
 summary:    Simplified day-to-day Nix development to remove the maintenance overhead
 image:      ifd-attribute-error.png
 author:     domenkozar
-categories: sprints, nix, hercules-ci
+tags:       nix hercules-ci
 ---
 
 Today we are releasing a new feature we've been working on the last couple of weeks.
