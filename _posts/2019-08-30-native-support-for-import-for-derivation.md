@@ -14,7 +14,7 @@ Today we are releasing a new feature we've been working on the last couple of we
 
 As a developer you often bump a dependency version or add a new dependency.
 
-**Every time packaging metadata changes, we need to regenerate Nix expressions
+**Every time your package files change, you need to regenerate the Nix expressions
 that describe how the project is built.**
 
 There are two ways to regenerate Nix expressions in that case:
@@ -106,7 +106,7 @@ let
   pkgs = import (import ./nix/sources.nix).nixpkgs {};
   haskell = import (import ./nix/sources.nix)."haskell.nix" { inherit pkgs; };
   plan = haskell.callCabalProjectToNix
-              { index-state = "2019-08-26T00:00:00Z"; src = pin.lib.cleanSource ./.;};
+              { index-state = "2019-08-26T00:00:00Z"; src = pkgs.lib.cleanSource ./.;};
 
   pkgSet = haskell.mkCabalProjectPkgSet {
     plan-pkgs = import plan;
