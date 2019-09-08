@@ -141,7 +141,7 @@ In order to use IFD support you will need to upgrade to [hercules-ci-agent-0.4.0
 # Future work
 
 Some Nix tools already embrace IFD, such as [haskell.nix](https://input-output-hk.github.io/haskell.nix/),
-[yarn2nix (Node.js)](https://github.com/moretea/yarn2nix) and [pnpm2nix (Node.js)](https://github.com/adisbladis/pnpm2nix).
+[yarn2nix (Node.js)](https://github.com/moretea/yarn2nix), [pnpm2nix (Node.js)](https://github.com/adisbladis/pnpm2nix) and [opam2nix (OCaml)](https://github.com/timbertson/opam2nix-packages).
 
 We encourage more language tools to take advantage of this feature.
 
@@ -153,3 +153,7 @@ We believe this is **a huge step forward to simplify day-to-day Nix development*
 
 Automated hosted infrastructure for Nix, reliable and reproducible developer tooling, to speed up adoption and lower integration cost.
 We offer [Continuous Integration](https://hercules-ci.com) and [Binary Caches](https://cachix.org).
+
+## Updates
+
+2019-09-08: Add opam2nix
