@@ -89,7 +89,7 @@ Our monitoring revealed an increased number of nginx connections and file handle
 ## Summary
 
 We're confident such issues shouldn't affect the production anymore and since availability of
-Cachix is our atmost priority, we are going to make sure to complete the rest of the work in timely manner.
+Cachix is our utmost priority, we are going to make sure to complete the rest of the work in a timely manner.
 
 ---
 
