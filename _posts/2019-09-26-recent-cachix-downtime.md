@@ -78,7 +78,7 @@ Our monitoring revealed an increased number of nginx connections and file handle
   We opened [nixpkgs pull request](https://github.com/NixOS/nixpkgs/pull/69552) to lay the ground work
   to be able to compile debugging builds.
 
-  However there's a GHC bug opened showing [debugging builds alter the performance of programs](https://gitlab.haskell.org/ghc/ghc/issues/15960), so we need to asset our impact first.
+  However there's a GHC bug opened showing [debugging builds alter the performance of programs](https://gitlab.haskell.org/ghc/ghc/issues/15960), so we need to asses our impact first.
 
 - Upgrade [network](https://github.com/haskell/network) library to 3.0 fixing [unneeded file handle usage](https://github.com/snoyberg/http-client/issues/374#issuecomment-535919090) and [a possible candidate for a deadlock](https://github.com/haskell/network-bsd/commit/2167eca412fa488f7b2622fcd61af1238153dae7).
 
