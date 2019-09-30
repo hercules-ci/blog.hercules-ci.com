@@ -10,7 +10,7 @@ tags:       nix cachix
 
 On 6th of September, [Cachix](https://cachix.org) experienced 3 hours of downtime.
 
-We'd like to let you know exactly what happened and what measures we haven taken to prevent such an event from happening in the future.
+We'd like to let you know exactly what happened and what measures we have taken to prevent such an event from happening in the future.
 
 ## Timeline (UTC)
 
@@ -33,7 +33,7 @@ And:
 (ConnectionFailure Network.BSD.getProtocolByName: does not exist (no such protocol name: tcp)))
 ```
 
-Most importantly, there were no logs after we downtime was triggered and until the restart:
+Most importantly, there were no logs after downtime was triggered and until the restart:
 
 ```log
 Sep 06 17:15:48 cachix-production.cachix cachix-server[6488]: Network.Socket.recvBuf: resource vanished (Connection reset by peer)
@@ -62,7 +62,7 @@ Our monitoring revealed an increased number of nginx connections and file handle
 
 - We've increased file descriptors limit to 8192.
 
-- We've set up [Cachix status page](https://status.cachix.org/) so that you always check the state of the service.
+- We've set up [Cachix status page](https://status.cachix.org/) so that you can check the state of the service.
 
 - For a better visibility into errors like file handles, we've configured [sentry.io](https://sentry.io)
   error reporting.
