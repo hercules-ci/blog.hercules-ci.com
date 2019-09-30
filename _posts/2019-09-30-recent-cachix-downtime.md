@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Post-mortem on recent Cachix downtime
-date:       2019-09-27
+date:       2019-09-30
 summary:    Analysis of events that took place and how we've improved our infrastructure
 image:      cachix-downtime-unsplash.jpg
 author:     domenkozar
@@ -71,6 +71,9 @@ Our monitoring revealed an increased number of nginx connections and file handle
 
 - Robert is now fully onboarded to be able to resolve any Cachix issues
 
+- We've made a number of improvements for the performance of Cachix. Just tuning GHC RTS settings
+  shows 15% speed up in common usage.
+
 ## Future work
 
 - Enable debugging builds for production. This would allow systemd watchdog to [send signal SIGQUIT](https://mpickering.github.io/ghc-docs/build-html/users_guide/debug-info.html#requesting-a-stack-trace-with-sigquit) and get an execution stack in which program hanged.
@@ -82,9 +85,10 @@ Our monitoring revealed an increased number of nginx connections and file handle
 
 - Upgrade [network](https://github.com/haskell/network) library to 3.0 fixing [unneeded file handle usage](https://github.com/snoyberg/http-client/issues/374#issuecomment-535919090) and [a possible candidate for a deadlock](https://github.com/haskell/network-bsd/commit/2167eca412fa488f7b2622fcd61af1238153dae7).
 
-  There's [an old issue in Stackage](https://github.com/commercialhaskell/stackage/issues/4528), but we're confident it will be resolved soon.
+  [Stackage just included network-3.* in latest snapshot](https://www.stackage.org/nightly-2019-09-30)
+  so it's a matter of weeks.
 
-- Improve load testing tooling to be able to catch these issues early.
+- Improve load testing tooling to be able to reason about performance implications.
 
 ## Summary
 
