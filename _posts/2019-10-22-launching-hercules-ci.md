@@ -23,7 +23,7 @@ Since April 2019 we've been gradually giving out early access to preview phase w
 ## Today 
 
 
-We are **announcing general availability of continious integration specialized for Nix projects.**
+We are **announcing general availability of continuous integration specialized for Nix projects.**
 
 [Start building and testing your projects](https://hercules-ci.com/dashboard).
 
