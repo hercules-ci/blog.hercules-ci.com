@@ -33,7 +33,7 @@ In the next months we're going to work closely with customers to polish the expe
 
 For **support** (with getting started and other questions),
 contact us at [domen@hercules-ci.com](mailto:domen@hercules-ci.com) so we can set you up
-and make sure you get most out of the CI.
+and make sure you get the most out of the CI.
 
 Subscribe to [@hercules_ci](https://twitter.com/hercules_ci) for updates.
 
