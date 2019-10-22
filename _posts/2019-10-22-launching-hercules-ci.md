@@ -25,7 +25,7 @@ Since April 2019 we have been gradually giving out early access to the preview r
 
 We are **announcing general availability of continuous integration specialized for Nix projects.**
 
-[Start on landing page for features](https://hercules-ci.com).
+[Check out the landing page to get started](https://hercules-ci.com).
 
 ## Going forward
 
