@@ -1,9 +1,9 @@
 ---
 layout:     post
 title:      Launching Hercules CI
-date:       2019-10-21
+date:       2019-10-22
 summary:    After more than a year of development, we're announcing ...
-image:      foobar.jpg
+image:      
 author:     domenkozar
 tags:       nix hercules-ci
 ---
@@ -25,7 +25,7 @@ Since April 2019 we have been gradually giving out early access to the preview r
 
 We are **announcing general availability of continuous integration specialized for Nix projects.**
 
-[Start building and testing your projects](https://hercules-ci.com/dashboard).
+[Start on landing page for features](https://hercules-ci.com).
 
 ## Going forward
 
