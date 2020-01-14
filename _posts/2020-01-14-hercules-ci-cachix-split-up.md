@@ -10,9 +10,9 @@ tags:       nix hercules-ci cachix
 
 After careful consideration of how to balance between the two products, we've decided to split up. Each of the two products will be a separate entity:
 
-- Robert Hensing dedicated to Hercules CI owned by Ensius B.V.
-- Domen Kožar dedicated to Cachix owned by Enlambda OÜ
+- Hercules CI becomes part of Robert Hensing's Ensius B.V.
+- Cachix becomes part of Domen Kožar's Enlambda OÜ
 
-On customer side there will be no changes, except for point of contact in support requests.
+For customers there will be no changes, except for the point of contact in support requests.
 
 Domen & Robert
