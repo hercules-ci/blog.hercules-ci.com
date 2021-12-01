@@ -11,3 +11,9 @@ via github pages.
 # Development
 
   $ ./live-server
+
+# Deployment preview
+
+1. Push to a branch
+
+2. Open the details, open the effect log, go to preview url
