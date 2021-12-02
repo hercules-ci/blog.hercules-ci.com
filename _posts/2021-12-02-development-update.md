@@ -3,6 +3,7 @@ layout:     post
 title:      CI Development Update
 date:       2021-12-02
 summary:    Development has continued but the blog hasn't. Let's fix that!
+image:      hercules-ci.jpg
 author:     roberth
 tags:       hercules-ci
 ---
