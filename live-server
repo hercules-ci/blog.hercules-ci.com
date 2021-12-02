@@ -1,1 +1,1 @@
-nix-shell --run "jekyll serve"
+nix develop --command jekyll serve
