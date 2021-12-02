@@ -9,7 +9,8 @@
   outputs = { self, nixpkgs, hercules-ci-effects }:
     let
       inherit (nixpkgs) lib;
-
+      pkgs = nixpkgs.legacyPackages.x86_64-linux;
+      jekyll = pkgs.jekyll.override { withOptionalDependencies = true; };
     in
     {
       herculesCI = { branch, ... }: {
@@ -19,7 +20,6 @@
 
             effects.deploy =
               let
-                pkgs = nixpkgs.legacyPackages.x86_64-linux;
                 effects = hercules-ci-effects.lib.withPkgs pkgs;
               in
               effects.runIf (branch != null) (effects.mkEffect {
@@ -51,7 +51,7 @@
       packages.x86_64-linux.blog =
         let
           pkgs = nixpkgs.legacyPackages.x86_64-linux;
-          inherit (pkgs) stdenv nodePackages jekyll glibcLocales;
+          inherit (pkgs) stdenv nodePackages glibcLocales;
         in
         stdenv.mkDerivation {
           name = "blog.hercules-ci.com";
@@ -60,7 +60,7 @@
 
           nativeBuildInputs = [
             nodePackages.parcel-bundler
-            (jekyll.override { withOptionalDependencies = true; })
+            jekyll
             glibcLocales
           ];
 
@@ -79,9 +79,12 @@
       defaultPackage.x86_64-linux = self.packages.x86_64-linux.blog;
 
       devShell.x86_64-linux =
-        let pkgs = nixpkgs.legacyPackages.x86_64-linux; in
         nixpkgs.legacyPackages.x86_64-linux.mkShell {
-          nativeBuildInputs = [ pkgs.jekyll pkgs.netlify-cli pkgs.nixpkgs-fmt ];
+          nativeBuildInputs = [
+            jekyll
+            pkgs.netlify-cli
+            pkgs.nixpkgs-fmt
+          ];
         };
     };
 }

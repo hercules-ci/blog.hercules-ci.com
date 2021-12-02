@@ -1,5 +1,5 @@
 # Site settings
-title:       Hercules Labs blog
+title:       Hercules CI blog
 email:       info@hercules-ci.com
 author:      Robert Hensing & Domen Kožar
 description: "Hercules CI and Cachix development blog"
@@ -21,7 +21,7 @@ bing_verification:
 # Optional features
 animated:             false
 show_related_posts:   false
-show_post_footers:    false
+show_post_footers:    true
 show_social_icons:    false
 ajaxify_contact_form: false
 enable_mathjax: false
@@ -124,6 +124,12 @@ plugins:
   - jekyll-sitemap
 # https://github.com/jekyll/jekyll/issues/2938
 exclude:
+  - CNAME
+  - flake.lock
+  - flake.nix
   - Gemfile
   - Gemfile.lock
+  - live-server
+  - Rakefile
   - vendor
+  - THEME-LICENSE.txt
