@@ -69,8 +69,6 @@ All these improvements combined reduce the updater configuration to a minimum.
 
 To let Hercules CI distribute these tokens, it needs permission to do so.
 
-NOTE: If you read this early, the permissions request may not be available yet.
-
 If you got the email from GitHub, you can take it from there.
 
 Otherwise, if you are an admin of the GitHub organization, or if you use it on your personal account, follow the steps:
