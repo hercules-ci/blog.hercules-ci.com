@@ -53,6 +53,8 @@ This will automatically create a branch that will start building once a day.
 
 You will be able to configure it to create a PR or to run [at different times](https://flake.parts/options/hercules-ci-effects.html#opt-hercules-ci.flake-update.when).
 
+Here's the [full example](https://docs.hercules-ci.com/hercules-ci-effects/reference/flake-parts/flake-update/).
+
 ## Secure tokens
 
 Flakes and flake parts make this easy to integrate, but without another feature, setting up the updater was still a bit cumbersome for two reasons: repeating the repository URL, but worse was configuring access tokens in `secrets.json`. Not only was it repetitive, but potentially unsafe. While a single personal access token could serve all the repositories in an organization, reducing the hassle a bit, but it’s not a good practice, because it violates the principle of least power. If it would leak, an attacker could affect the whole GitHub organization!
@@ -68,8 +70,6 @@ All these improvements combined reduce the updater configuration to a minimum.
 ### Granting permissions
 
 To let Hercules CI distribute these tokens, it needs permission to do so.
-
-NOTE: If you read this early, the permissions request may not be available yet.
 
 If you got the email from GitHub, you can take it from there.
 
