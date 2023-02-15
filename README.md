@@ -14,6 +14,6 @@ via github pages.
 
 # Deployment preview
 
-1. Push to a branch
+1. Push to a branch,
 
-2. Open the details, open the effect log, go to preview url
+2. Open the details, open the effect log, go to preview url.
